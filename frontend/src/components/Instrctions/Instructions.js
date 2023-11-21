@@ -8,6 +8,7 @@ import './Instructions.css'
 
 export default function Instructions({ currentPose }) {
 
+    // eslint-disable-next-line
     const [instructions, setInsntructions] = useState(poseInstructions)
 
     return (
@@ -23,6 +24,7 @@ export default function Instructions({ currentPose }) {
             <img 
                 className="pose-demo-img"
                 src={poseImages[currentPose]}
+                alt='demo pose'
             />
         </div>
     )

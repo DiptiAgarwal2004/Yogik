@@ -1,88 +1,98 @@
-
 .home-header {
-    background-image: linear-gradient(to right, #ff9671, #ffac69, #ffc465, #ffde66, #f9f871);
-    width: 100vw;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  background-image: linear-gradient(to right, #000000, #231618);
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .home-container {
-    background: black
+  background: black;
 }
 .header-btn:hover {
-    border-color: white;
+  border-color: white;
 }
 
 .home-heading {
-    padding: 0px;
-    margin: 0px;
-    font-size: 44px;
-    margin-left: 30px;
-    color: #000;
-    font-family: 'Kaushan Script', cursive;
+  padding: 0px;
+  margin: 0px;
+  font-size: 44px;
+  font-weight: bolder;
+  margin-left: 30px;
+  background: linear-gradient(to right, #ffca28, #eb6b34, #ffeb3b);
+  background-clip: text;
+  color: transparent;
+  font-family: "Poppins", cursive;
 }
 
 .home-main {
-    margin: auto;
-    margin-top: -50px;
-    width: 100vw;
-    height: 100vh;    
-    background: linear-gradient(rgba(0,0,0,0.2), rgba(0, 0, 0, 0.8)), url('../../utils/images/yoga_pose.png') ;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:  750px;
+  margin: auto;
+  margin-top: -50px;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
+    url("../../utils/images/yoga_pose.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 750px;
 }
 
 .description {
-    font-size: 66px;
-    color: white;
-    text-align: center;
-    margin: 0px;
-    margin-top: 10px;
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: 0.5px;
+  font-size: 36px;
+  color: #eb6b34;
+  text-align: center;
+  margin: 0px;
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.5px;
+}
+.desc {
+  color: white;
+  text-align: center;
+  margin: 0px;
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.5px;
 }
 
 .btn-section {
-    position: absolute;
-    left: 38vw;
-    top: 60vh;
+  position: absolute;
+  left: 38vw;
+  top: 60vh;
 }
 
-.btn{
-    padding: 10px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin: 10px 20px 10px 20px;
-    background-color: rgba(255, 255, 255, 0);
-    color: white;
-    font-size: 24px;
-    border-color: #FFA500;
-    border-radius: 8px;
-    border-width: 4px;
-    cursor: pointer;
+.btn {
+  padding: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 10px 20px 10px 20px;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  font-size: 24px;
+  border-color: #eb6b34;
+  border-radius: 8px;
+  border-width: 4px;
+  cursor: pointer;
 }
 .btn:hover {
-    background: rgba(255,165,0, 0.2);
-    color: white;
+  background: rgba(255, 165, 0, 0.2);
+  color: white;
 }
 
 body::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 #about-btn {
-    padding: 5px 10px;
-    color: #000;
+  padding: 5px 10px;
 }
 #about-btn:hover {
-    border-color: white;
-    background-color: white;
-    color: black;
+  border-color: white;
+  background-color: white;
+  color: black;
 }
 #about-btn:focus {
-    box-shadow: none;
-    background: white;
-    border-color: white;
-    color: black;
+  box-shadow: none;
+  background: white;
+  border-color: white;
+  color: black;
 }

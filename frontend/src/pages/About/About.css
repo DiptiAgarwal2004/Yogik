@@ -1,30 +1,38 @@
 .about-container {
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(100deg, #FF8C00, #FFA500);
+  width: 100vw;
+  height: 100vh;
+  background: black;
 }
 .about-heading {
-    font-size: 54px;
-    text-align: center;
-    padding-top: 10px;
-    color: white;
-    font-family: 'Raleway', sans-serif;
+  font-size: 54px;
+  text-align: center;
+  padding-top: 10px;
+  background: linear-gradient(to right, #ffca28, #eb6b34, #ffeb3b);
+  background-clip: text;
+  color: transparent;
+  font-family: "Raleway", sans-serif;
 }
 .about-main {
-    margin: auto;
-    width: 70%;
+  margin: auto;
+  width: 70%;
 }
 .about-content {
-    color: white;
-    font-size: 18px;
+    background: linear-gradient(to right, #ffca28, #eb6b34);
+    background-clip: text;
+    color: transparent;
+  font-size: 18px;
 }
 .developer-info h4 {
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    margin-top: 20px;
-    text-decoration: underline;
+    background: linear-gradient(to right, #ffca28, #eb6b34, #ffeb3b);
+    background-clip: text;
+    color: transparent;
+  font-family: "Raleway", sans-serif;
+  margin-top: 20px;
+  text-decoration: underline;
 }
 .about-content a,
 .developer-info a {
- color: white;  
+    background: linear-gradient(to right, #ffca28, #eb6b34);
+    background-clip: text;
+    color: transparent;
 }

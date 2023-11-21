@@ -12,7 +12,7 @@ export default function About() {
                     I created this as a personal project, and I have also deployed this project
                     so people can use it and mainly the developers can who are learning AI can learn 
                     from this project and make their own AI or they can also improve in this project.
-                    This is an open source project, The code is available on the GitHub - <a href="https://github.com/harshbhatt7585/YogaIntelliJ">https://github.com/harshbhatt7585/YogaIntelliJ</a>
+                    This is an open source project, The code is available on the GitHub - <a href="https://github.com/DiptiAgarwal2004/Yogik">https://github.com/DiptiAgarwal2004/Yogik</a>
                     
                     This AI first predicts keypoints or coordinates of different parts of the body(basically where
                     they are present in an image) and then it use another classification model to classify the poses if 
@@ -24,13 +24,8 @@ export default function About() {
                     the keras/tensorflow model to tensorflowJS.
                 </p>
                 <div className="developer-info">
-                    <h4>About Developer</h4>
-                    <p className="about-content">Dipti
-                    </p>
-                    <h4>Contact</h4>
-                    <a href="https://www.instagram.com/codedharsh75/"><p className="about-content">Instagram</p></a>
-                    <a href="https://www.youtube.com/channel/UCiD7kslR7lKSaPGSQ-heOWg"><p  className="about-content">Youtube</p></a>
-                    <a href="https://github.com/harshbhatt7585"><p  className="about-content">GitHub</p></a>
+                    <h4>Dipti Agarwal</h4>
+                    
                 </div>
             </div>
         </div>
